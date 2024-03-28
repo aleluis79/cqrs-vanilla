@@ -1,3 +1,5 @@
+using cqrs_vanilla.Domain.Ports.In;
+
 namespace cqrs_vanilla.Infrastructure.Services;
 
 public class QueryDispatcher: IQueryDispatcher

@@ -1,9 +1,10 @@
 using cqrs_vanilla.Infrastructure.Services;
 using cqrs_vanilla.Infrastructure.Extensions;
-using cqrs_vanilla.Infraestructure.Persistence;
+using cqrs_vanilla.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using cqrs_vanilla.Domain.Ports.Out;
-using cqrs_vanilla.Infraestructure.Repositories;
+using cqrs_vanilla.Infrastructure.Repositories;
+using cqrs_vanilla.Domain.Ports.In;
 
 var builder = WebApplication.CreateBuilder(args);
 

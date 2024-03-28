@@ -1,6 +1,6 @@
 using cqrs_vanilla.Application.UseCases.Todos.Commands;
 using cqrs_vanilla.Application.UseCases.Todos.Queries;
-using cqrs_vanilla.Infrastructure.Services;
+using cqrs_vanilla.Domain.Ports.In;
 using Microsoft.AspNetCore.Mvc;
 
 namespace cqrs_vanilla.Infrastructure.Controllers;

@@ -1,4 +1,4 @@
-namespace cqrs_vanilla.Infraestructure.Entities;
+namespace cqrs_vanilla.Infrastructure.Entities;
 
 public class TodoEntity
 {

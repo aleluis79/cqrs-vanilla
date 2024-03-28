@@ -1,6 +1,6 @@
 using cqrs_vanilla.Domain.Models;
+using cqrs_vanilla.Domain.Ports.In;
 using cqrs_vanilla.Domain.Ports.Out;
-using cqrs_vanilla.Infrastructure.Services;
 
 namespace cqrs_vanilla.Application.UseCases.Todos.Queries;
 

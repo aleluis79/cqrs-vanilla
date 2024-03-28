@@ -1,11 +1,11 @@
 using AutoMapper;
 using cqrs_vanilla.Domain.Models;
 using cqrs_vanilla.Domain.Ports.Out;
-using cqrs_vanilla.Infraestructure.Entities;
-using cqrs_vanilla.Infraestructure.Persistence;
+using cqrs_vanilla.Infrastructure.Entities;
+using cqrs_vanilla.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace cqrs_vanilla.Infraestructure.Repositories;
+namespace cqrs_vanilla.Infrastructure.Repositories;
 
 public class TodoRepositoryRead : ITodoRepositoryRead
 {

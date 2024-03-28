@@ -1,8 +1,8 @@
 using AutoMapper;
 using cqrs_vanilla.Domain.Models;
-using cqrs_vanilla.Infraestructure.Entities;
+using cqrs_vanilla.Infrastructure.Entities;
 
-namespace cqrs_vanilla.Infraestructure.Mappers;
+namespace cqrs_vanilla.Infrastructure.Mappers;
 
 public class TodoProfile : Profile
 {

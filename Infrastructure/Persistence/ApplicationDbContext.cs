@@ -1,7 +1,7 @@
-using cqrs_vanilla.Infraestructure.Entities;
+using cqrs_vanilla.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace cqrs_vanilla.Infraestructure.Persistence;
+namespace cqrs_vanilla.Infrastructure.Persistence;
 
 public class ApplicationDbContext : DbContext
 {

@@ -1,4 +1,4 @@
-namespace cqrs_vanilla.Infrastructure.Services;
+namespace cqrs_vanilla.Domain.Ports.In;
 
 public interface IQueryDispatcher
 {
